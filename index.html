@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator with javascript</title>
+    <link rel="stylesheet" href="style/output.css">
+</head>
+
+<body>
+    <div class="relative w-full row justify-center items-center h-[100vh] bg-stone-800">
+        <section class="w-3/12 row justify-center myBG h-10/12 rounded-4xl shadow-2xl">
+            <div class="text-center py-2">
+                <h4 class="text-stone-500 italic font-bold">free code camp</h4>
+                <h2 class="uppercase text-stone-800 tracking-widest">electronic Calculator</h2>
+            </div>
+            <input class="w-10/12 rounded-4xl text-end  h-2/12 bg-[#C7C7B0] px-10 text-[#7a7a4e] text-4xl" readonly
+                disabled value="" placeholder="0" />
+            <div class="w-10/12 w- row justify-evenly *:w-2/12 items-center *:text-xl">
+
+                <button class="myButton acReset myResetButtons">AC</button>
+                <button class="myButton ceReset myResetButtons">CE</button>
+                <button class="myButton Hundred">%</button>
+                <button class="myButton op">/</button>
+
+            </div>
+            <div class="w-10/12 w- row justify-evenly *:w-2/12 items-center *:text-xl">
+
+                <button class="myButton addad">7</button>
+                <button class="myButton addad">8</button>
+                <button class="myButton addad">9</button>
+                <button class="myButton op">*</button>
+
+            </div>
+            <div class="w-10/12 w- row justify-evenly *:w-2/12 items-center *:text-xl">
+
+                <button class="myButton addad">4</button>
+                <button class="myButton addad">5</button>
+                <button class="myButton addad">6</button>
+                <button class="myButton op">-</button>
+
+            </div>
+            <div class="w-10/12 w- row justify-evenly *:w-2/12 items-center *:text-xl">
+
+                <button class="myButton addad">1</button>
+                <button class="myButton addad">2</button>
+                <button class="myButton addad">3</button>
+                <button class="myButton op">+</button>
+
+            </div>
+            <div class="w-10/12 w- row justify-evenly *:w-2/12 items-center *:text-xl pb-4">
+
+                <button class="myButton addad">0</button>
+                <button class="myButton float">.</button>
+                <button class="myButton result">=</button>
+                <button class="myButton radical"> &radic;</button>
+
+            </div>
+
+
+        </section>
+
+        <div class="fixed bottom-5 right-5 h-40 group">
+            <figure
+                class="h-full flex justify-evenly  relative rounded-3xl rounded-bl-none p-1 bg-gradient-to-r from-blue-400 to-purple-800">
+
+                <img src="img/2023.jpg"
+                    class=" object-cover animate-[myFancy_10s_infinite_ease-out]  h-full w-full bg-gray-300 rounded-2xl p-2  myCustomFancyBorder"
+                    alt="">
+
+                <figcaption
+                    class="text-xl text-white font-bold italic text-center bg-gradient-to-r from-purple-800  to-blue-400 absolute bottom-0 left-0 opacity-0 group-hover:opacity-100 duration-700 -translate-x-34 p-3 rounded-2xl rounded-tr-none rounded-br-none">
+                    Milad Karimi</figcaption>
+
+            </figure>
+        </div>
+        <div
+            class="fixed top-5 left-5 *:bg-gradient-to-r *:from-purple-800  *:to-blue-400 *:text-amber-50 *:italic *:font-bold *:py-4 *:px-10 *:my-2 *:rounded-4xl *:hover:bg-gradient-to-r *:hover:from-red-500 *:hover:to-amber-300 *:duration-500 *:hover:w-[120%] *:cursor-pointer">
+            <h2>simple calculator with Pure javascript</h2>
+            <h2>you can use with their own buttons in screen</h2>
+            <h2>you can use with your keboard</h2>
+            <h2>Has validation just like a real Calculator</h2>
+        </div>
+
+    </div>
+
+
+    <script src="js/js.js"></script>
+</body>
+
+</html>
