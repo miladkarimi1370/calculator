@@ -4,7 +4,7 @@
 
 <img width="1897" height="891" alt="Image" src="https://github.com/user-attachments/assets/058e3a35-91e0-42eb-8cde-f658834f5c47" />
 
-- [Demo Project]()
+- [Demo Project](https://miladkarimi1370.github.io/calculator/)
 
 - Developed by Milad Karimi
 
